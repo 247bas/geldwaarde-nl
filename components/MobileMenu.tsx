@@ -26,31 +26,31 @@ export function MobileMenu() {
       </div>
 
       {/* Mobile menu */}
-      <div className="lg:hidden hidden bg-white border-b shadow-lg" id="mobile-menu">
-        <div className="px-2 pt-2 pb-3 space-y-1">
+      <div className="lg:hidden hidden bg-white border-t shadow-xl absolute top-16 left-0 right-0 z-50" id="mobile-menu">
+        <div className="px-4 pt-4 pb-4 space-y-2">
           <a
             href="/gouden-munten"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-yellow-600 hover:bg-gray-50 rounded-md transition"
+            className="block px-4 py-3 text-lg font-medium text-gray-800 hover:text-yellow-600 hover:bg-yellow-50 rounded-lg transition border-b border-gray-100"
           >
-            Gouden Munten
+            🥇 Gouden Munten
           </a>
           <a
             href="/zilveren-munten"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition"
+            className="block px-4 py-3 text-lg font-medium text-gray-800 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition border-b border-gray-100"
           >
-            Zilveren Munten
+            🥈 Zilveren Munten
           </a>
           <a
             href="/collectie"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition"
+            className="block px-4 py-3 text-lg font-medium text-gray-800 hover:text-green-600 hover:bg-green-50 rounded-lg transition border-b border-gray-100"
           >
-            Mijn Collectie
+            📁 Mijn Collectie
           </a>
           <a
             href="/prijzen"
-            className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition"
+            className="block px-4 py-3 text-lg font-medium text-gray-800 hover:text-purple-600 hover:bg-purple-50 rounded-lg transition"
           >
-            Actuele Prijzen
+            💰 Actuele Prijzen
           </a>
         </div>
       </div>
