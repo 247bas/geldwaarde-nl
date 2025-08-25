@@ -33,7 +33,7 @@ function calculateYearRange(coin: any): string {
       const yearMatches = yearString.match(/\d{4}/g);
       
       if (yearMatches) {
-        yearMatches.forEach(yearStr => {
+        yearMatches.forEach((yearStr: string) => {
           const year = parseInt(yearStr);
           if (year >= 1800 && year <= 2030) { // Redelijke jaar range
             allYears.push(year);
@@ -44,7 +44,7 @@ function calculateYearRange(coin: any): string {
       // Parse bereiken zoals "1819-1837"
       const rangeMatches = yearString.match(/(\d{4})-(\d{4})/g);
       if (rangeMatches) {
-        rangeMatches.forEach(range => {
+        rangeMatches.forEach((range: string) => {
           const [startYear, endYear] = range.split('-').map(y => parseInt(y));
           if (startYear >= 1800 && endYear <= 2030) {
             for (let year = startYear; year <= endYear; year++) {
