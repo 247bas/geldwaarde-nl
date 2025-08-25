@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   description: "Bereken direct de actuele waarde van uw Nederlandse gouden en zilveren munten. Gouden tientjes, zilveren guldens, rijksdaalders en meer.",
   keywords: "gouden tientje, zilveren gulden, muntwaarde, goudprijs, zilverprijs, nederlandse munten, oude munten waarde",
   authors: [{ name: "Geldwaarde.nl" }],
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+  },
   openGraph: {
     title: "Geldwaarde.nl - Nederlandse Muntwaarde Calculator",
     description: "Bereken direct de waarde van uw Nederlandse gouden en zilveren munten met actuele edelmetaalprijzen.",
