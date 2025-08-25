@@ -1,0 +1,1664 @@
+{
+  "version": "2.3.0",
+  "lastUpdated": "2025-08-24",
+  "coins": {
+    "gouden-tientje": {
+      "id": "gouden-tientje",
+      "name": "Gouden Tientje",
+      "slug": "gouden-tientje",
+      "metalType": "GOLD",
+      "denomination": "10 gulden",
+      "images": {
+        "main": "/images/coins/gouden-tientje-main.jpg",
+        "variants": [
+          {
+            "id": "gouden-10-gulden-1",
+            "ruler": "Willem I",
+            "images": {
+              "front": "/images/coins/gouden-tientje-willem1-voorkant.jpg",
+              "back": "/images/coins/gouden-tientje-willem1-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-10-gulden-2",
+            "ruler": "Willem II",
+            "images": {
+              "front": "/images/coins/gouden-tientje-willem2-voorkant.jpg",
+              "back": "/images/coins/gouden-tientje-willem2-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-10-gulden-3",
+            "ruler": "Willem III",
+            "images": {
+              "front": "/images/coins/gouden-tientje-willem3-voorkant.jpg",
+              "back": "/images/coins/gouden-tientje-willem3-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-10-gulden-4",
+            "ruler": "Wilhelmina",
+            "images": {
+              "front": "/images/coins/gouden-tientje-wilhelmina-voorkant.jpg",
+              "back": "/images/coins/gouden-tientje-wilhelmina-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Gouden 10 gulden Waarde 2025 - Actuele Goudprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw gouden 10 gulden. Willem I, Willem II, Willem III, Wilhelmina. Actuele goudprijs. 6.73 gram, 90.0% goudgehalte.",
+        "h1Title": "Gouden 10 gulden: Actuele Waarde en Informatie",
+        "introText": "De gouden 10 gulden is een gouden munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Willem II, Willem III, Wilhelmina en bevatten gemiddeld 6.056 gram puur goud.",
+        "historicalInfo": "Gouden 10 gulden munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina. De munten hebben een gemiddeld gewicht van 6.73 gram met een goudgehalte van 90.0%.",
+        "technicalInfo": "Gewicht: 6.73 gram | Goudgehalte: 90.0% | Fijn goud: 6.056 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de goudwaarde."
+      },
+      "overviewData": {
+        "years": "1818-1933",
+        "weight": 6.729,
+        "metalContent": 90,
+        "description": "Gouden 10 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "gouden-tientje-1",
+          "years": "1818-1840",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 6.729,
+          "goldPercentage": 90,
+          "diameter": 22.5,
+          "collectorsValueRange": {
+            "min": 545,
+            "max": 908
+          }
+        },
+        {
+          "id": "gouden-tientje-2",
+          "years": "1842-1848",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 6.729,
+          "goldPercentage": 90,
+          "diameter": 22.5,
+          "collectorsValueRange": {
+            "min": 545,
+            "max": 908
+          }
+        },
+        {
+          "id": "gouden-tientje-3",
+          "years": "1850-1889",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 6.729,
+          "goldPercentage": 90,
+          "diameter": 22.5,
+          "collectorsValueRange": {
+            "min": 545,
+            "max": 908
+          }
+        },
+        {
+          "id": "gouden-tientje-4",
+          "years": "1892-1933",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 6.729,
+          "goldPercentage": 90,
+          "diameter": 22.5,
+          "collectorsValueRange": {
+            "min": 545,
+            "max": 908
+          }
+        }
+      ]
+    },
+    "gouden-vijfje": {
+      "id": "gouden-vijfje",
+      "name": "Gouden Vijfje",
+      "slug": "gouden-vijfje",
+      "metalType": "GOLD",
+      "denomination": "5 gulden",
+      "images": {
+        "main": "/images/coins/gouden-vijfje-main.jpg",
+        "variants": [
+          {
+            "id": "gouden-5-gulden-1",
+            "ruler": "Willem I",
+            "images": {
+              "front": "/images/coins/gouden-vijfje-willem1-voorkant.jpg",
+              "back": "/images/coins/gouden-vijfje-willem1-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-5-gulden-2",
+            "ruler": "Willem II",
+            "images": {
+              "front": "/images/coins/gouden-vijfje-willem2-voorkant.jpg",
+              "back": "/images/coins/gouden-vijfje-willem2-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-5-gulden-3",
+            "ruler": "Willem III",
+            "images": {
+              "front": "/images/coins/gouden-vijfje-willem3-voorkant.jpg",
+              "back": "/images/coins/gouden-vijfje-willem3-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-5-gulden-4",
+            "ruler": "Wilhelmina",
+            "images": {
+              "front": "/images/coins/gouden-vijfje-wilhelmina-voorkant.jpg",
+              "back": "/images/coins/gouden-vijfje-wilhelmina-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Gouden 5 gulden Waarde 2025 - Actuele Goudprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw gouden 5 gulden. Willem I, Willem II, Willem III, Wilhelmina. Actuele goudprijs. 3.36 gram, 90.0% goudgehalte.",
+        "h1Title": "Gouden 5 gulden: Actuele Waarde en Informatie",
+        "introText": "De gouden 5 gulden is een gouden munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Willem II, Willem III, Wilhelmina en bevatten gemiddeld 3.027 gram puur goud.",
+        "historicalInfo": "Gouden 5 gulden munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina. De munten hebben een gemiddeld gewicht van 3.36 gram met een goudgehalte van 90.0%.",
+        "technicalInfo": "Gewicht: 3.36 gram | Goudgehalte: 90.0% | Fijn goud: 3.027 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de goudwaarde."
+      },
+      "overviewData": {
+        "years": "1826-1912",
+        "weight": 3.3645,
+        "metalContent": 90,
+        "description": "Gouden 5 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "gouden-vijfje-1",
+          "years": "1826-1827",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 3.3645,
+          "goldPercentage": 90,
+          "diameter": 18.5,
+          "collectorsValueRange": {
+            "min": 273,
+            "max": 454
+          }
+        },
+        {
+          "id": "gouden-vijfje-2",
+          "years": "1843-1848",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 3.3645,
+          "goldPercentage": 90,
+          "diameter": 18.5,
+          "collectorsValueRange": {
+            "min": 273,
+            "max": 454
+          }
+        },
+        {
+          "id": "gouden-vijfje-3",
+          "years": "1850-1851",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 3.3645,
+          "goldPercentage": 90,
+          "diameter": 18.5,
+          "collectorsValueRange": {
+            "min": 273,
+            "max": 454
+          }
+        },
+        {
+          "id": "gouden-vijfje-4",
+          "years": "1912",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 3.36,
+          "goldPercentage": 90,
+          "diameter": 18,
+          "collectorsValueRange": {
+            "min": 272,
+            "max": 454
+          }
+        }
+      ]
+    },
+    "gouden-twintig-gulden": {
+      "id": "gouden-twintig-gulden",
+      "name": "Gouden Twintig Gulden",
+      "slug": "gouden-twintig-gulden",
+      "metalType": "GOLD",
+      "denomination": "20 gulden",
+      "images": {
+        "main": "/images/coins/gouden-twintig-gulden-main.jpg",
+        "variants": [
+          {
+            "id": "gouden-20-gulden-1",
+            "ruler": "Willem II",
+            "images": {
+              "front": "/images/coins/gouden-twintig-gulden-willem1-voorkant.jpg",
+              "back": "/images/coins/gouden-twintig-gulden-willem1-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-20-gulden-2",
+            "ruler": "Willem III",
+            "images": {
+              "front": "/images/coins/gouden-twintig-gulden-willem2-voorkant.jpg",
+              "back": "/images/coins/gouden-twintig-gulden-willem2-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Gouden 20 gulden Waarde 2025 - Actuele Goudprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw gouden 20 gulden. Willem II, Willem III. Actuele goudprijs. 13.46 gram, 90.0% goudgehalte.",
+        "h1Title": "Gouden 20 gulden: Actuele Waarde en Informatie",
+        "introText": "De gouden 20 gulden is een gouden munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem II, Willem III en bevatten gemiddeld 12.112 gram puur goud.",
+        "historicalInfo": "Gouden 20 gulden munten werden uitgegeven onder verschillende vorsten: Willem II, Willem III. De munten hebben een gemiddeld gewicht van 13.46 gram met een goudgehalte van 90.0%.",
+        "technicalInfo": "Gewicht: 13.46 gram | Goudgehalte: 90.0% | Fijn goud: 12.112 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de goudwaarde."
+      },
+      "overviewData": {
+        "years": "1848-1853",
+        "weight": 13.458,
+        "metalContent": 90,
+        "description": "Gouden 20 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "gouden-twintig-gulden-1",
+          "years": "1848",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 13.458,
+          "goldPercentage": 90,
+          "diameter": 27,
+          "collectorsValueRange": {
+            "min": 1090,
+            "max": 1817
+          }
+        },
+        {
+          "id": "gouden-twintig-gulden-2",
+          "years": "1850-1853",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 13.458,
+          "goldPercentage": 90,
+          "diameter": 27,
+          "collectorsValueRange": {
+            "min": 1090,
+            "max": 1817
+          }
+        }
+      ]
+    },
+    "zilveren-gulden": {
+      "id": "4",
+      "name": "Zilveren Gulden",
+      "slug": "zilveren-gulden",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-gulden-main.jpg",
+        "variants": [
+          {
+            "id": "3-1",
+            "images": {
+              "front": "/images/coins/zilveren-gulden-willem1-voorkant.jpg",
+              "back": "/images/coins/zilveren-gulden-willem1-achterkant.jpg"
+            }
+          },
+          {
+            "id": "3-2",
+            "images": {
+              "front": "/images/coins/zilveren-gulden-willem2-voorkant.jpg",
+              "back": "/images/coins/zilveren-gulden-willem2-achterkant.jpg"
+            }
+          },
+          {
+            "id": "3-3",
+            "images": {
+              "front": "/images/coins/zilveren-gulden-willem3-voorkant.jpg",
+              "back": "/images/coins/zilveren-gulden-willem3-achterkant.jpg"
+            }
+          },
+          {
+            "id": "3-4",
+            "images": {
+              "front": "/images/coins/zilveren-gulden-wilhelmina-jong-voorkant.jpg",
+              "back": "/images/coins/zilveren-gulden-wilhelmina-jong-achterkant.jpg"
+            }
+          },
+          {
+            "id": "3-5",
+            "images": {
+              "front": "/images/coins/zilveren-gulden-wilhelmina-oud-voorkant.jpg",
+              "back": "/images/coins/zilveren-gulden-wilhelmina-oud-achterkant.jpg"
+            }
+          },
+          {
+            "id": "3-6",
+            "images": {
+              "front": "/images/coins/zilveren-gulden-juliana-voorkant.jpg",
+              "back": "/images/coins/zilveren-gulden-juliana-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 1 gulden Waarde 2025 - Actuele Zilverprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw zilveren 1 gulden. Willem I, Willem II, Willem III, Wilhelmina, Juliana, Beatrix. Actuele zilverprijs. 9.46 gram, 88.1% zilvergehalte.",
+        "h1Title": "Zilveren Gulden: Actuele Waarde en Informatie",
+        "introText": "De zilveren 1 gulden is een zilveren munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Willem II, Willem III, Wilhelmina, Juliana, Beatrix en bevatten gemiddeld 8.336 gram puur zilver.",
+        "historicalInfo": "Zilveren 1 gulden munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina, Juliana, Beatrix. De munten hebben een gemiddeld gewicht van 9.46 gram met een zilvergehalte van 88.1%.",
+        "technicalInfo": "Gewicht: 9.46 gram | Zilvergehalte: 88.1% | Fijn zilver: 8.336 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de zilverwaarde."
+      },
+      "overviewData": {
+        "years": "1818, 1819-1837, 1840, 1840-1849, 1850-1867, 1892-1917, 1922-1943, 1954-1967, 2001",
+        "weight": 10.766,
+        "metalContent": 89.3,
+        "description": "Zilveren 1 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "zilveren-1-gulden-1",
+          "years": "1818",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 10.766,
+          "silverPercentage": 89.3,
+          "diameter": 30.5,
+          "collectorsValueRange": {
+            "min": 404,
+            "max": 673
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-2",
+          "years": "1819-1837",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 10.766,
+          "silverPercentage": 89.3,
+          "diameter": 30,
+          "collectorsValueRange": {
+            "min": 404,
+            "max": 673
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-3",
+          "years": "1840",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 10,
+          "silverPercentage": 94.5,
+          "diameter": 28,
+          "collectorsValueRange": {
+            "min": 397,
+            "max": 662
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-4",
+          "years": "1840-1849",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 10,
+          "silverPercentage": 94.5,
+          "diameter": 28,
+          "collectorsValueRange": {
+            "min": 397,
+            "max": 662
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-5",
+          "years": "1850-1867",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 10,
+          "silverPercentage": 94.5,
+          "diameter": 28,
+          "collectorsValueRange": {
+            "min": 397,
+            "max": 662
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-6",
+          "years": "1892-1917",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 10,
+          "silverPercentage": 94.5,
+          "diameter": 28,
+          "collectorsValueRange": {
+            "min": 397,
+            "max": 662
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-7",
+          "years": "1922-1943",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 10,
+          "silverPercentage": 72,
+          "diameter": 28,
+          "collectorsValueRange": {
+            "min": 302,
+            "max": 504
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-8",
+          "years": "1954-1967",
+          "name": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "weight": 6.5,
+          "silverPercentage": 72,
+          "diameter": 25,
+          "collectorsValueRange": {
+            "min": 197,
+            "max": 328
+          }
+        },
+        {
+          "id": "zilveren-1-gulden-9",
+          "years": "2001",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 7.1,
+          "silverPercentage": 92.5,
+          "diameter": 25,
+          "collectorsValueRange": {
+            "min": 276,
+            "max": 460
+          }
+        }
+      ]
+    },
+    "zilveren-rijksdaalder": {
+      "id": "5",
+      "name": "Zilveren Rijksdaalder",
+      "slug": "zilveren-rijksdaalder",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-rijksdaalder-main.jpg",
+        "variants": [
+          {
+            "id": "4-1",
+            "images": {
+              "front": "/images/coins/zilveren-rijksdaalder-willem2-voorkant.jpg",
+              "back": "/images/coins/zilveren-rijksdaalder-willem2-achterkant.jpg"
+            }
+          },
+          {
+            "id": "4-2",
+            "images": {
+              "front": "/images/coins/zilveren-rijksdaalder-willem3-voorkant.jpg",
+              "back": "/images/coins/zilveren-rijksdaalder-willem3-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 2,5 gulden Waarde 2025 - Actuele Zilverprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw zilveren 2,5 gulden. Willem I, Willem II, Willem III, Wilhelmina, Juliana. Actuele zilverprijs. 23.33 gram, 87% zilvergehalte.",
+        "h1Title": "Zilveren Rijksdaalder: Actuele Waarde en Informatie",
+        "introText": "De zilveren 2,5 gulden is een zilveren munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Willem II, Willem III, Wilhelmina, Juliana en bevatten gemiddeld 20.300 gram puur zilver.",
+        "historicalInfo": "Zilveren 2,5 gulden munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina, Juliana. De munten hebben een gemiddeld gewicht van 23.33 gram met een zilvergehalte van 87%.",
+        "technicalInfo": "Gewicht: 23.33 gram | Zilvergehalte: 87% | Fijn zilver: 20.300 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de zilverwaarde."
+      },
+      "overviewData": {
+        "years": "1840, 1841-1849, 1849-1874, 1898, 1929-1943, 1959-1966",
+        "weight": 25,
+        "metalContent": 94.5,
+        "description": "Zilveren 2,5 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "zilveren-2-5-gulden-1",
+          "years": "1840",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 25,
+          "silverPercentage": 94.5,
+          "diameter": 38,
+          "collectorsValueRange": {
+            "min": 992,
+            "max": 1654
+          }
+        },
+        {
+          "id": "zilveren-2-5-gulden-2",
+          "years": "1841-1849",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 25,
+          "silverPercentage": 94.5,
+          "diameter": 38,
+          "collectorsValueRange": {
+            "min": 992,
+            "max": 1654
+          }
+        },
+        {
+          "id": "zilveren-2-5-gulden-3",
+          "years": "1849-1874",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 25,
+          "silverPercentage": 94.5,
+          "diameter": 38,
+          "collectorsValueRange": {
+            "min": 992,
+            "max": 1654
+          }
+        },
+        {
+          "id": "zilveren-2-5-gulden-4",
+          "years": "1898",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 25,
+          "silverPercentage": 94.5,
+          "diameter": 38,
+          "collectorsValueRange": {
+            "min": 992,
+            "max": 1654
+          }
+        },
+        {
+          "id": "zilveren-2-5-gulden-5",
+          "years": "1929-1943",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 25,
+          "silverPercentage": 72,
+          "diameter": 38,
+          "collectorsValueRange": {
+            "min": 756,
+            "max": 1260
+          }
+        },
+        {
+          "id": "zilveren-2-5-gulden-6",
+          "years": "1959-1966",
+          "name": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "weight": 15,
+          "silverPercentage": 72,
+          "diameter": 33,
+          "collectorsValueRange": {
+            "min": 454,
+            "max": 756
+          }
+        }
+      ]
+    },
+    "zilveren-tientje": {
+      "id": "6",
+      "name": "Zilveren Tientje",
+      "slug": "zilveren-tientje",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-tientje-main.jpg",
+        "variants": [
+          {
+            "id": "5-1",
+            "images": {
+              "front": "/images/coins/zilveren-tientje-juliana25-voorkant.jpg",
+              "back": "/images/coins/zilveren-tientje-juliana25-achterkant.jpg"
+            }
+          },
+          {
+            "id": "5-2",
+            "images": {
+              "front": "/images/coins/zilveren-tientje-bevrijding-voorkant.jpg",
+              "back": "/images/coins/zilveren-tientje-bevrijding-achterkant.jpg"
+            }
+          },
+          {
+            "id": "5-3",
+            "images": {
+              "front": "/images/coins/zilveren-tientje-beatrix-voorkant.jpg",
+              "back": "/images/coins/zilveren-tientje-beatrix-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 10 gulden Waarde 2025 - Actuele Zilverprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw zilveren 10 gulden. Juliana, Beatrix. Actuele zilverprijs. 18.33 gram, 72% zilvergehalte.",
+        "h1Title": "Zilveren Tientje: Actuele Waarde en Informatie",
+        "introText": "De zilveren 10 gulden is een zilveren munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Juliana, Beatrix en bevatten gemiddeld 13.200 gram puur zilver.",
+        "historicalInfo": "Zilveren 10 gulden munten werden uitgegeven onder verschillende vorsten: Juliana, Beatrix. De munten hebben een gemiddeld gewicht van 18.33 gram met een zilvergehalte van 72%.",
+        "technicalInfo": "Gewicht: 18.33 gram | Zilvergehalte: 72% | Fijn zilver: 13.200 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de zilverwaarde."
+      },
+      "overviewData": {
+        "years": "1970-1973, 1994, 1995-1999",
+        "weight": 25,
+        "metalContent": 72,
+        "description": "Zilveren 10 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "zilveren-10-gulden-1",
+          "years": "1970-1973",
+          "name": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "weight": 25,
+          "silverPercentage": 72,
+          "diameter": 38,
+          "collectorsValueRange": {
+            "min": 756,
+            "max": 1260
+          }
+        },
+        {
+          "id": "zilveren-10-gulden-2",
+          "years": "1994",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 15,
+          "silverPercentage": 72,
+          "diameter": 33,
+          "collectorsValueRange": {
+            "min": 454,
+            "max": 756
+          }
+        },
+        {
+          "id": "zilveren-10-gulden-3",
+          "years": "1995-1999",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 15,
+          "silverPercentage": 72,
+          "diameter": 33,
+          "collectorsValueRange": {
+            "min": 454,
+            "max": 756
+          }
+        }
+      ]
+    },
+    "zilveren-vijftig-gulden": {
+      "id": "7",
+      "name": "Zilveren Vijftig Gulden",
+      "slug": "zilveren-vijftig-gulden",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-vijftig-gulden-main.jpg",
+        "variants": [
+          {
+            "id": "6-1",
+            "images": {
+              "front": "/images/coins/zilveren-vijftig-gulden-diverse-voorkant.jpg",
+              "back": "/images/coins/zilveren-vijftig-gulden-diverse-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 50 Gulden Waarde 2025 - Herdenkingsmunt | Geldwaarde.nl",
+        "metaDescription": "Zilveren 50 gulden herdenkingsmunten 1982-1998. Met 23 gram puur zilver (92,5%). Actuele waarde en verzamelaarsinformatie.",
+        "h1Title": "Zilveren Vijftig Gulden Herdenkingsmunten",
+        "introText": "De zilveren 50 gulden munten zijn bijzondere herdenkingsmunten met 92,5% zilvergehalte, uitgegeven voor speciale gelegenheden.",
+        "historicalInfo": "Zilveren 50 gulden munten werden uitgegeven onder verschillende vorsten: Beatrix. De munten hebben een gemiddeld gewicht van 25.00 gram met een zilvergehalte van 92.5%.",
+        "technicalInfo": "Gewicht: 25 gram | Zilvergehalte: 92,5% (925/1000) | Fijn zilver: 23,125 gram | Diameter: 38 mm",
+        "collectingTips": "Vaak lage oplages maken deze munten gewild. Originele verpakking en certificaat verhogen de waarde aanzienlijk."
+      },
+      "overviewData": {
+        "years": "1982-1998",
+        "weight": 25,
+        "metalContent": 92.5,
+        "description": "Bijzondere herdenkingsmunten"
+      },
+      "variants": [
+        {
+          "id": "6-1",
+          "years": "1982-1998",
+          "name": "Diverse herdenkingen",
+          "weight": 25,
+          "silverPercentage": 92.5,
+          "collectorsValueRange": {
+            "min": 35,
+            "max": 60
+          }
+        },
+        {
+          "id": "zilveren-50-gulden-1",
+          "years": "1982-1998",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 25,
+          "silverPercentage": 92.5,
+          "diameter": 38,
+          "collectorsValueRange": {
+            "min": 971,
+            "max": 1619
+          }
+        }
+      ]
+    },
+    "zilveren-kwartje": {
+      "id": "8",
+      "name": "Zilveren Kwartje",
+      "slug": "zilveren-kwartje",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-kwartje-main.jpg",
+        "variants": [
+          {
+            "id": "7-1",
+            "images": {
+              "front": "/images/coins/zilveren-kwartje-willem3-voorkant.jpg",
+              "back": "/images/coins/zilveren-kwartje-willem3-achterkant.jpg"
+            }
+          },
+          {
+            "id": "7-2",
+            "images": {
+              "front": "/images/coins/zilveren-kwartje-wilhelmina-jong-voorkant.jpg",
+              "back": "/images/coins/zilveren-kwartje-wilhelmina-jong-achterkant.jpg"
+            }
+          },
+          {
+            "id": "7-3",
+            "images": {
+              "front": "/images/coins/zilveren-kwartje-wilhelmina-oud-voorkant.jpg",
+              "back": "/images/coins/zilveren-kwartje-wilhelmina-oud-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren Kwartje Waarde 2025 - 25 Cent Zilver | Geldwaarde.nl",
+        "metaDescription": "Bereken de waarde van uw zilveren kwartje (25 cent). Willem III en Wilhelmina tot 1941. Met 2 gram puur zilver. Actuele prijzen.",
+        "h1Title": "Zilveren Kwartje (25 Cent)",
+        "introText": "Het zilveren kwartje was een veelgebruikte munt tot 1941, met 3,18 gram gewicht en 64% zilvergehalte.",
+        "historicalInfo": "Zilveren 25 cent munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina. De munten hebben een gemiddeld gewicht van 3.84 gram met een zilvergehalte van 61.1%.",
+        "technicalInfo": "Gewicht: 3,18 gram | Zilvergehalte: 64% (640/1000) | Fijn zilver: 2,035 gram | Diameter: 19 mm",
+        "collectingTips": "Vroege jaren van Willem III en de laatste vooroorlogse jaren zijn interessant voor verzamelaars."
+      },
+      "overviewData": {
+        "years": "1850-1941",
+        "weight": 3.18,
+        "metalContent": 64,
+        "description": "Kleine circulatiemunt van 25 cent"
+      },
+      "variants": [
+        {
+          "id": "7-1",
+          "years": "1850-1890",
+          "name": "Willem III",
+          "weight": 3.18,
+          "silverPercentage": 64,
+          "collectorsValueRange": {
+            "min": 3,
+            "max": 6
+          }
+        },
+        {
+          "id": "7-2",
+          "years": "1892-1919",
+          "name": "Wilhelmina (jong)",
+          "weight": 3.18,
+          "silverPercentage": 64,
+          "collectorsValueRange": {
+            "min": 2.5,
+            "max": 5
+          }
+        },
+        {
+          "id": "7-3",
+          "years": "1926-1941",
+          "name": "Wilhelmina (oud)",
+          "weight": 3.18,
+          "silverPercentage": 64,
+          "collectorsValueRange": {
+            "min": 2,
+            "max": 4.5
+          }
+        },
+        {
+          "id": "zilveren-25-cent-1",
+          "years": "1817-1819",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 4.23,
+          "silverPercentage": 56.9,
+          "diameter": 21,
+          "collectorsValueRange": {
+            "min": 101,
+            "max": 168
+          }
+        },
+        {
+          "id": "zilveren-25-cent-2",
+          "years": "1822-1830",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 4.23,
+          "silverPercentage": 56.8,
+          "diameter": 21,
+          "collectorsValueRange": {
+            "min": 101,
+            "max": 168
+          }
+        },
+        {
+          "id": "zilveren-25-cent-3",
+          "years": "1848-1849",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 3.575,
+          "silverPercentage": 64,
+          "diameter": 19,
+          "collectorsValueRange": {
+            "min": 96,
+            "max": 160
+          }
+        },
+        {
+          "id": "zilveren-25-cent-4",
+          "years": "1849-1890",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 3.575,
+          "silverPercentage": 64,
+          "diameter": 19,
+          "collectorsValueRange": {
+            "min": 96,
+            "max": 160
+          }
+        },
+        {
+          "id": "zilveren-25-cent-5",
+          "years": "1891-1943",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 3.575,
+          "silverPercentage": 64,
+          "diameter": 19,
+          "collectorsValueRange": {
+            "min": 96,
+            "max": 160
+          }
+        }
+      ]
+    },
+    "gouden-gulden": {
+      "id": "gouden-gulden",
+      "name": "Gouden Gulden",
+      "slug": "gouden-gulden",
+      "metalType": "GOLD",
+      "denomination": "1 gulden",
+      "images": {
+        "main": "/images/coins/gouden-gulden-main.jpg",
+        "variants": [
+          {
+            "id": "gouden-1-gulden-1",
+            "ruler": "Beatrix",
+            "images": {
+              "front": "/images/coins/gouden-gulden-willem1-voorkant.jpg",
+              "back": "/images/coins/gouden-gulden-willem1-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Gouden 1 gulden Waarde 2025 - Actuele Goudprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw gouden 1 gulden. Beatrix. Actuele goudprijs. 13.20 gram, 100% goudgehalte.",
+        "h1Title": "Gouden 1 gulden: Actuele Waarde en Informatie",
+        "introText": "De gouden 1 gulden is een gouden munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Beatrix en bevatten gemiddeld 13.20 gram puur goud.",
+        "historicalInfo": "Gouden 1 gulden munten werden uitgegeven onder verschillende vorsten: Beatrix. De munten hebben een gemiddeld gewicht van 13.20 gram met een goudgehalte van 100%.",
+        "technicalInfo": "Gewicht: 13.20 gram | Goudgehalte: 100% | Fijn goud: 13.20 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de goudwaarde."
+      },
+      "overviewData": {
+        "years": "2001",
+        "weight": 13.2,
+        "metalContent": 100,
+        "description": "Gouden 1 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "gouden-gulden-1",
+          "years": "2001",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 13.2,
+          "goldPercentage": 100,
+          "diameter": 25,
+          "collectorsValueRange": {
+            "min": 1187,
+            "max": 1978
+          }
+        }
+      ]
+    },
+    "zilveren-drie-gulden": {
+      "id": "10",
+      "name": "Zilveren Drie Gulden",
+      "slug": "zilveren-drie-gulden",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-drie-gulden-main.jpg",
+        "variants": [
+          {
+            "id": "10-1",
+            "images": {
+              "front": "/images/coins/zilveren-drie-gulden-willem2-voorkant.jpg",
+              "back": "/images/coins/zilveren-drie-gulden-willem2-achterkant.jpg"
+            }
+          },
+          {
+            "id": "10-2",
+            "images": {
+              "front": "/images/coins/zilveren-drie-gulden-willem3-voorkant.jpg",
+              "back": "/images/coins/zilveren-drie-gulden-willem3-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 3 Gulden Waarde 2025 - Drie Gulden Zilver | Geldwaarde.nl",
+        "metaDescription": "Bereken de waarde van uw zilveren 3 gulden munt. Willem II en III. Met 15 gram puur zilver. Actuele zilverprijs en verzamelaarsinformatie.",
+        "h1Title": "Zilveren Drie Gulden",
+        "introText": "De zilveren 3 gulden was een waardevolle munt met 15 gram gewicht en 94,5% zilver, geslagen tussen 1840 en 1874.",
+        "historicalInfo": "Zilveren 3 gulden munten werden uitgegeven onder verschillende vorsten: Willem I. De munten hebben een gemiddeld gewicht van 32.30 gram met een zilvergehalte van 89.3%.",
+        "technicalInfo": "Gewicht: 15 gram | Zilvergehalte: 94,5% (945/1000) | Fijn zilver: 14,175 gram | Diameter: 33 mm",
+        "collectingTips": "Drie gulden munten zijn zeldzamer dan guldens. Willem II exemplaren zijn bijzonder gewild door verzamelaars."
+      },
+      "overviewData": {
+        "years": "1840-1874",
+        "weight": 15,
+        "metalContent": 94.5,
+        "description": "Waardevolle munt van 3 gulden"
+      },
+      "variants": [
+        {
+          "id": "10-1",
+          "years": "1840-1849",
+          "name": "Willem II",
+          "weight": 15,
+          "silverPercentage": 94.5,
+          "collectorsValueRange": {
+            "min": 25,
+            "max": 40
+          }
+        },
+        {
+          "id": "10-2",
+          "years": "1850-1874",
+          "name": "Willem III",
+          "weight": 15,
+          "silverPercentage": 94.5,
+          "collectorsValueRange": {
+            "min": 20,
+            "max": 35
+          }
+        },
+        {
+          "id": "zilveren-3-gulden-1",
+          "years": "1817-1832",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 32.298,
+          "silverPercentage": 89.3,
+          "diameter": 40,
+          "collectorsValueRange": {
+            "min": 1211,
+            "max": 2019
+          }
+        }
+      ]
+    },
+    "zilveren-halve-gulden": {
+      "id": "11",
+      "name": "Zilveren Halve Gulden",
+      "slug": "zilveren-halve-gulden",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-halve-gulden-main.jpg",
+        "variants": [
+          {
+            "id": "11-1",
+            "images": {
+              "front": "/images/coins/zilveren-halve-gulden-willem3-voorkant.jpg",
+              "back": "/images/coins/zilveren-halve-gulden-willem3-achterkant.jpg"
+            }
+          },
+          {
+            "id": "11-2",
+            "images": {
+              "front": "/images/coins/zilveren-halve-gulden-wilhelmina-voorkant.jpg",
+              "back": "/images/coins/zilveren-halve-gulden-wilhelmina-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 0,5 gulden Waarde 2025 - Actuele Zilverprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw zilveren 0,5 gulden. Willem I, Willem II, Willem III, Wilhelmina. Actuele zilverprijs. 5.08 gram, 89% zilvergehalte.",
+        "h1Title": "Zilveren Halve Gulden: Actuele Waarde en Informatie",
+        "introText": "De zilveren 0,5 gulden is een zilveren munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Willem II, Willem III, Wilhelmina en bevatten gemiddeld 4.516 gram puur zilver.",
+        "historicalInfo": "Zilveren 0,5 gulden munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina. De munten hebben een gemiddeld gewicht van 5.08 gram met een zilvergehalte van 89%.",
+        "technicalInfo": "Gewicht: 5.08 gram | Zilvergehalte: 89% | Fijn zilver: 4.516 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de zilverwaarde."
+      },
+      "overviewData": {
+        "years": "1818-1830, 1846-1848, 1850-1868, 1898-1919, 1921-1930",
+        "weight": 5.383,
+        "metalContent": 89.3,
+        "description": "Zilveren 0,5 gulden uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "zilveren-0-5-gulden-1",
+          "years": "1818-1830",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 5.383,
+          "silverPercentage": 89.3,
+          "diameter": 24,
+          "collectorsValueRange": {
+            "min": 202,
+            "max": 336
+          }
+        },
+        {
+          "id": "zilveren-0-5-gulden-2",
+          "years": "1846-1848",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 5,
+          "silverPercentage": 94.5,
+          "diameter": 22,
+          "collectorsValueRange": {
+            "min": 198,
+            "max": 331
+          }
+        },
+        {
+          "id": "zilveren-0-5-gulden-3",
+          "years": "1850-1868",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 5,
+          "silverPercentage": 94.5,
+          "diameter": 22,
+          "collectorsValueRange": {
+            "min": 198,
+            "max": 331
+          }
+        },
+        {
+          "id": "zilveren-0-5-gulden-4",
+          "years": "1898-1919",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 5,
+          "silverPercentage": 94.5,
+          "diameter": 22,
+          "collectorsValueRange": {
+            "min": 198,
+            "max": 331
+          }
+        },
+        {
+          "id": "zilveren-0-5-gulden-5",
+          "years": "1921-1930",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 5,
+          "silverPercentage": 72,
+          "diameter": 22,
+          "collectorsValueRange": {
+            "min": 151,
+            "max": 252
+          }
+        }
+      ]
+    },
+    "zilveren-tien-cent": {
+      "id": "12",
+      "name": "Zilveren Tien Cent",
+      "slug": "zilveren-tien-cent",
+      "metalType": "SILVER",
+      "images": {
+        "main": "/images/coins/zilveren-tien-cent-main.jpg",
+        "variants": [
+          {
+            "id": "12-1",
+            "images": {
+              "front": "/images/coins/zilveren-tien-cent-willem3-voorkant.jpg",
+              "back": "/images/coins/zilveren-tien-cent-willem3-achterkant.jpg"
+            }
+          },
+          {
+            "id": "12-2",
+            "images": {
+              "front": "/images/coins/zilveren-tien-cent-wilhelmina-voorkant.jpg",
+              "back": "/images/coins/zilveren-tien-cent-wilhelmina-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 10 Cent Waarde 2025 - Tien Cent Zilver | Geldwaarde.nl",
+        "metaDescription": "Bereken de waarde van uw zilveren 10 cent munt. Willem III en Wilhelmina tot 1919. Met 1,28 gram puur zilver. Actuele prijzen.",
+        "h1Title": "Zilveren Tien Cent",
+        "introText": "Het zilveren tien cent stuk was de kleinste zilveren munt met 2 gram gewicht en 64% zilvergehalte, geslagen tot 1919.",
+        "historicalInfo": "Zilveren 10 cent munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina. De munten hebben een gemiddeld gewicht van 1.47 gram met een zilvergehalte van 62.2%.",
+        "technicalInfo": "Gewicht: 2 gram | Zilvergehalte: 64% (640/1000) | Fijn zilver: 1,28 gram | Diameter: 15 mm",
+        "collectingTips": "De kleinste Nederlandse zilveren munt. Vroege jaren zijn interessant voor type-verzamelaars."
+      },
+      "overviewData": {
+        "years": "1850-1919",
+        "weight": 2,
+        "metalContent": 64,
+        "description": "Kleinste zilveren circulatiemunt"
+      },
+      "variants": [
+        {
+          "id": "12-1",
+          "years": "1850-1890",
+          "name": "Willem III",
+          "weight": 2,
+          "silverPercentage": 64,
+          "collectorsValueRange": {
+            "min": 2,
+            "max": 4
+          }
+        },
+        {
+          "id": "12-2",
+          "years": "1892-1919",
+          "name": "Wilhelmina",
+          "weight": 2,
+          "silverPercentage": 64,
+          "collectorsValueRange": {
+            "min": 1.8,
+            "max": 3.5
+          }
+        },
+        {
+          "id": "zilveren-10-cent-1",
+          "years": "",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 1.692,
+          "silverPercentage": 56.9,
+          "diameter": 18,
+          "collectorsValueRange": {
+            "min": 40,
+            "max": 67
+          }
+        },
+        {
+          "id": "zilveren-10-cent-2",
+          "years": "",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 1.4,
+          "silverPercentage": 64,
+          "diameter": 15,
+          "collectorsValueRange": {
+            "min": 38,
+            "max": 63
+          }
+        },
+        {
+          "id": "zilveren-10-cent-3",
+          "years": "",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 1.4,
+          "silverPercentage": 64,
+          "diameter": 15,
+          "collectorsValueRange": {
+            "min": 38,
+            "max": 63
+          }
+        },
+        {
+          "id": "zilveren-10-cent-4",
+          "years": "",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 1.4,
+          "silverPercentage": 64,
+          "diameter": 15,
+          "collectorsValueRange": {
+            "min": 38,
+            "max": 63
+          }
+        }
+      ]
+    },
+    "gouden-dubbele-dukaat": {
+      "id": "gouden-dubbele-dukaat",
+      "name": "Gouden Dubbele dukaat",
+      "slug": "gouden-dubbele-dukaat",
+      "metalType": "GOLD",
+      "denomination": "Dubbele dukaat",
+      "images": {
+        "main": "/images/coins/gouden-dubbele-dukaat-main.jpg",
+        "variants": [
+          {
+            "id": "gouden-dubbele-dukaat-1",
+            "ruler": "Willem III",
+            "images": {
+              "front": "/images/coins/gouden-dubbele-dukaat-willem-iii-voorkant.jpg",
+              "back": "/images/coins/gouden-dubbele-dukaat-willem-iii-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-dubbele-dukaat-2",
+            "ruler": "Beatrix",
+            "images": {
+              "front": "/images/coins/gouden-dubbele-dukaat-beatrix-voorkant.jpg",
+              "back": "/images/coins/gouden-dubbele-dukaat-beatrix-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Gouden Dubbele dukaat Waarde 2025 - Actuele Goudprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw gouden dubbele dukaat. Willem III, Beatrix. Actuele goudprijs. 6.99 gram, 98.3% goudgehalte.",
+        "h1Title": "Gouden Dubbele dukaat: Actuele Waarde en Informatie",
+        "introText": "De gouden dubbele dukaat is een gouden munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem III, Beatrix en bevatten gemiddeld 6.869 gram puur goud.",
+        "historicalInfo": "Gouden Dubbele dukaat munten werden uitgegeven onder verschillende vorsten: Willem III, Beatrix. De munten hebben een gemiddeld gewicht van 6.99 gram met een goudgehalte van 98.3%.",
+        "technicalInfo": "Gewicht: 6.99 gram | Goudgehalte: 98.3% | Fijn goud: 6.869 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de goudwaarde."
+      },
+      "overviewData": {
+        "years": "1854-2012",
+        "weight": 6.988,
+        "metalContent": 98.3,
+        "description": "Gouden Dubbele dukaat uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "gouden-dubbele-dukaat-1",
+          "years": "1854-1867",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 6.988,
+          "goldPercentage": 98.3,
+          "diameter": 27,
+          "collectorsValueRange": {
+            "min": 618,
+            "max": 1030
+          }
+        },
+        {
+          "id": "gouden-dubbele-dukaat-2",
+          "years": "1988-2012",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 6.988,
+          "goldPercentage": 98.3,
+          "diameter": 26,
+          "collectorsValueRange": {
+            "min": 618,
+            "max": 1030
+          }
+        }
+      ]
+    },
+    "gouden-dukaat": {
+      "id": "gouden-dukaat",
+      "name": "Gouden Dukaat",
+      "slug": "gouden-dukaat",
+      "metalType": "GOLD",
+      "denomination": "Dukaat",
+      "images": {
+        "main": "/images/coins/gouden-dukaat-main.jpg",
+        "variants": [
+          {
+            "id": "gouden-dukaat-1",
+            "ruler": "Willem I",
+            "images": {
+              "front": "/images/coins/gouden-dukaat-willem-i-voorkant.jpg",
+              "back": "/images/coins/gouden-dukaat-willem-i-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-dukaat-2",
+            "ruler": "Willem I",
+            "images": {
+              "front": "/images/coins/gouden-dukaat-willem-i-voorkant.jpg",
+              "back": "/images/coins/gouden-dukaat-willem-i-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-dukaat-3",
+            "ruler": "Willem II",
+            "images": {
+              "front": "/images/coins/gouden-dukaat-willem-ii-voorkant.jpg",
+              "back": "/images/coins/gouden-dukaat-willem-ii-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-dukaat-4",
+            "ruler": "Willem III",
+            "images": {
+              "front": "/images/coins/gouden-dukaat-willem-iii-voorkant.jpg",
+              "back": "/images/coins/gouden-dukaat-willem-iii-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-dukaat-5",
+            "ruler": "Wilhelmina",
+            "images": {
+              "front": "/images/coins/gouden-dukaat-wilhelmina-voorkant.jpg",
+              "back": "/images/coins/gouden-dukaat-wilhelmina-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-dukaat-6",
+            "ruler": "Juliana",
+            "images": {
+              "front": "/images/coins/gouden-dukaat-juliana-voorkant.jpg",
+              "back": "/images/coins/gouden-dukaat-juliana-achterkant.jpg"
+            }
+          },
+          {
+            "id": "gouden-dukaat-7",
+            "ruler": "Beatrix",
+            "images": {
+              "front": "/images/coins/gouden-dukaat-beatrix-voorkant.jpg",
+              "back": "/images/coins/gouden-dukaat-beatrix-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Gouden Dukaat Waarde 2025 - Actuele Goudprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw gouden dukaat. Willem I, Willem II, Willem III, Wilhelmina, Juliana, Beatrix. Actuele goudprijs. 3.49 gram, 98.3% goudgehalte.",
+        "h1Title": "Gouden Dukaat: Actuele Waarde en Informatie",
+        "introText": "De gouden dukaat is een gouden munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Willem II, Willem III, Wilhelmina, Juliana, Beatrix en bevatten gemiddeld 3.435 gram puur goud.",
+        "historicalInfo": "Gouden Dukaat munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III, Wilhelmina, Juliana, Beatrix. De munten hebben een gemiddeld gewicht van 3.49 gram met een goudgehalte van 98.3%.",
+        "technicalInfo": "Gewicht: 3.49 gram | Goudgehalte: 98.3% | Fijn goud: 3.435 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de goudwaarde."
+      },
+      "overviewData": {
+        "years": "1814-2012",
+        "weight": 3.494,
+        "metalContent": 98.3,
+        "description": "Gouden Dukaat uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "gouden-dukaat-1",
+          "years": "1814-1815",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 3.494,
+          "goldPercentage": 98.3,
+          "diameter": "20,5-21",
+          "collectorsValueRange": {
+            "min": 309,
+            "max": 515
+          }
+        },
+        {
+          "id": "gouden-dukaat-2",
+          "years": "1817-1840",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 3.494,
+          "goldPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "collectorsValueRange": {
+            "min": 309,
+            "max": 515
+          }
+        },
+        {
+          "id": "gouden-dukaat-3",
+          "years": "1841",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 3.494,
+          "goldPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "collectorsValueRange": {
+            "min": 309,
+            "max": 515
+          }
+        },
+        {
+          "id": "gouden-dukaat-4",
+          "years": "1849-1885",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 3.494,
+          "goldPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "collectorsValueRange": {
+            "min": 309,
+            "max": 515
+          }
+        },
+        {
+          "id": "gouden-dukaat-5",
+          "years": "1894-1937",
+          "name": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "weight": 3.494,
+          "goldPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "collectorsValueRange": {
+            "min": 309,
+            "max": 515
+          }
+        },
+        {
+          "id": "gouden-dukaat-6",
+          "years": "1960-1978",
+          "name": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "weight": 3.494,
+          "goldPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "collectorsValueRange": {
+            "min": 309,
+            "max": 515
+          }
+        },
+        {
+          "id": "gouden-dukaat-7",
+          "years": "1958-2012",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 3.494,
+          "goldPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "collectorsValueRange": {
+            "min": 309,
+            "max": 515
+          }
+        }
+      ]
+    },
+    "zilveren-vijf-cent": {
+      "id": "zilveren-vijf-cent",
+      "name": "Zilveren Vijf Cent",
+      "slug": "zilveren-vijf-cent",
+      "metalType": "SILVER",
+      "denomination": "5 cent",
+      "images": {
+        "main": "/images/coins/zilveren-5-cent-main.jpg",
+        "variants": [
+          {
+            "id": "zilveren-5-cent-1",
+            "ruler": "Willem I",
+            "images": {
+              "front": "/images/coins/zilveren-5-cent-willem-i-voorkant.jpg",
+              "back": "/images/coins/zilveren-5-cent-willem-i-achterkant.jpg"
+            }
+          },
+          {
+            "id": "zilveren-5-cent-2",
+            "ruler": "Willem II",
+            "images": {
+              "front": "/images/coins/zilveren-5-cent-willem-ii-voorkant.jpg",
+              "back": "/images/coins/zilveren-5-cent-willem-ii-achterkant.jpg"
+            }
+          },
+          {
+            "id": "zilveren-5-cent-3",
+            "ruler": "Willem III",
+            "images": {
+              "front": "/images/coins/zilveren-5-cent-willem-iii-voorkant.jpg",
+              "back": "/images/coins/zilveren-5-cent-willem-iii-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren 5 cent Waarde 2025 - Actuele Zilverprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw zilveren 5 cent. Willem I, Willem II, Willem III. Actuele zilverprijs. 0.74 gram, 61.6% zilvergehalte.",
+        "h1Title": "Zilveren Vijf Cent: Actuele Waarde en Informatie",
+        "introText": "De zilveren 5 cent is een zilveren munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Willem II, Willem III en bevatten gemiddeld 0.455 gram puur zilver.",
+        "historicalInfo": "Zilveren 5 cent munten werden uitgegeven onder verschillende vorsten: Willem I, Willem II, Willem III. De munten hebben een gemiddeld gewicht van 0.74 gram met een zilvergehalte van 61.6%.",
+        "technicalInfo": "Gewicht: 0.74 gram | Zilvergehalte: 61.6% | Fijn zilver: 0.455 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de zilverwaarde."
+      },
+      "overviewData": {
+        "years": "1818-1828, 1848, 1850-1887",
+        "weight": 0.846,
+        "metalContent": 56.9,
+        "description": "Zilveren 5 cent uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "zilveren-5-cent-1",
+          "years": "1818-1828",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 0.846,
+          "silverPercentage": 56.9,
+          "diameter": 15,
+          "collectorsValueRange": {
+            "min": 20,
+            "max": 34
+          }
+        },
+        {
+          "id": "zilveren-5-cent-2",
+          "years": "1848",
+          "name": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "weight": 0.685,
+          "silverPercentage": 64,
+          "diameter": 12.5,
+          "collectorsValueRange": {
+            "min": 18,
+            "max": 31
+          }
+        },
+        {
+          "id": "zilveren-5-cent-3",
+          "years": "1850-1887",
+          "name": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "weight": 0.685,
+          "silverPercentage": 64,
+          "diameter": 12.5,
+          "collectorsValueRange": {
+            "min": 18,
+            "max": 31
+          }
+        }
+      ]
+    },
+    "zilveren-dukaat": {
+      "id": "zilveren-dukaat",
+      "name": "Zilveren Dukaat",
+      "slug": "zilveren-dukaat",
+      "metalType": "SILVER",
+      "denomination": "Zilveren dukaat",
+      "images": {
+        "main": "/images/coins/zilveren-zilveren-dukaat-main.jpg",
+        "variants": [
+          {
+            "id": "zilveren-zilveren-dukaat-1",
+            "ruler": "Willem I",
+            "images": {
+              "front": "/images/coins/zilveren-zilveren-dukaat-willem-i-voorkant.jpg",
+              "back": "/images/coins/zilveren-zilveren-dukaat-willem-i-achterkant.jpg"
+            }
+          },
+          {
+            "id": "zilveren-zilveren-dukaat-2",
+            "ruler": "Beatrix",
+            "images": {
+              "front": "/images/coins/zilveren-zilveren-dukaat-beatrix-voorkant.jpg",
+              "back": "/images/coins/zilveren-zilveren-dukaat-beatrix-achterkant.jpg"
+            }
+          }
+        ]
+      },
+      "seoContent": {
+        "metaTitle": "Zilveren Dukaat Waarde 2025 - Actuele Zilverprijs Calculator | Geldwaarde.nl",
+        "metaDescription": "Bereken direct de waarde van uw zilveren dukaat. Willem I, Beatrix. Actuele zilverprijs. 28.16 gram, 87% zilvergehalte.",
+        "h1Title": "Zilveren Dukaat: Actuele Waarde en Informatie",
+        "introText": "De zilveren dukaat is een zilveren munt uit de Nederlandse muntgeschiedenis. Deze munten werden geslagen onder Willem I, Beatrix en bevatten gemiddeld 24.517 gram puur zilver.",
+        "historicalInfo": "Zilveren Dukaat munten werden uitgegeven onder verschillende vorsten: Willem I, Beatrix. De munten hebben een gemiddeld gewicht van 28.16 gram met een zilvergehalte van 87%.",
+        "technicalInfo": "Gewicht: 28.16 gram | Zilvergehalte: 87% | Fijn zilver: 24.517 gram",
+        "collectingTips": "Let bij aankoop op de staat van de munt en het jaar van uitgifte. Zeldzame jaren en onbeschadigde exemplaren hebben een hogere verzamelaarswaarde dan alleen de zilverwaarde."
+      },
+      "overviewData": {
+        "years": "1815-1816, 1989-2014",
+        "weight": 28.078,
+        "metalContent": 86.8,
+        "description": "Zilveren Dukaat uit de Nederlandse muntgeschiedenis"
+      },
+      "variants": [
+        {
+          "id": "zilveren-zilveren-dukaat-1",
+          "years": "1815-1816",
+          "name": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "weight": 28.078,
+          "silverPercentage": 86.8,
+          "diameter": 38.5,
+          "collectorsValueRange": {
+            "min": 1024,
+            "max": 1706
+          }
+        },
+        {
+          "id": "zilveren-zilveren-dukaat-2",
+          "years": "1989-2014",
+          "name": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "weight": 28.25,
+          "silverPercentage": 87.3,
+          "diameter": 40,
+          "collectorsValueRange": {
+            "min": 1036,
+            "max": 1726
+          }
+        }
+      ]
+    }
+  }
+}
