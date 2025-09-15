@@ -43,7 +43,10 @@ export async function POST(request: NextRequest) {
 
     if (!adminKey || adminKey !== expectedAdminKey) {
       // Log potential security breach
-      console.warn(`Unauthorized admin access attempt from: ${request.ip || 'unknown'} - User-Agent: ${userAgent}`);
+      // Get IP from headers (x-forwarded-for is set by Vercel)
+      const forwardedFor = request.headers.get('x-forwarded-for');
+      const clientIp = forwardedFor ? forwardedFor.split(',')[0].trim() : 'unknown';
+      console.warn(`Unauthorized admin access attempt from: ${clientIp} - User-Agent: ${userAgent}`);
 
       return NextResponse.json(
         { error: 'Unauthorized: Invalid admin key' },
