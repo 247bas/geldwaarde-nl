@@ -196,21 +196,6 @@ export function CalculatorClient({ coins, variants, prices }: CalculatorClientPr
                 <p className="text-4xl font-bold text-green-600">
                   €{calculatedValue.toFixed(2)}
                 </p>
-                
-                {/* Collectors Value */}
-                {variant.collectorsValueRange && (
-                  <div className="mt-4">
-                    <p className="text-sm text-gray-600 mb-2">Geschatte verzamelaarswaarde:</p>
-                    <p className="text-2xl font-bold text-blue-600">
-                      €{variant.collectorsValueRange.min.toFixed(0)} - €{variant.collectorsValueRange.max.toFixed(0)}
-                    </p>
-                    {calculatedValue < variant.collectorsValueRange.min && (
-                      <p className="text-sm text-blue-500 mt-1">
-                        🌟 Deze munt heeft een hogere verzamelaarswaarde dan de metaalwaarde!
-                      </p>
-                    )}
-                  </div>
-                )}
 
                 {/* Detailed Information */}
                 <div className="mt-4 grid grid-cols-2 gap-4 text-sm">

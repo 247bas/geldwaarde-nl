@@ -11,13 +11,9 @@
     "lint:fix": "next lint --fix",
     "type-check": "tsc --noEmit",
     "vercel-build": "npm run build",
-    "postinstall": "prisma generate",
     "prisma:generate": "prisma generate",
     "prisma:push": "prisma db push",
     "prisma:seed": "prisma db seed"
-  },
-  "prisma": {
-    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",

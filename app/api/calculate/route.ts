@@ -208,12 +208,12 @@ export async function POST(request: Request) {
     let pureMetalWeight = 0;
     let metalPercentage = 0;
 
-    if (coin.metalType === 'GOLD' && variant.goldPercentage) {
+    if (coin.metalType === 'GOLD' && variant.goldPercentage && prices.gold) {
       metalType = 'goud';
       metalPercentage = variant.goldPercentage;
       pureMetalWeight = variant.weightGrams * (variant.goldPercentage / 100);
       metalValue = pureMetalWeight * prices.gold;
-    } else if (coin.metalType === 'SILVER' && variant.silverPercentage) {
+    } else if (coin.metalType === 'SILVER' && variant.silverPercentage && prices.silver) {
       metalType = 'zilver';
       metalPercentage = variant.silverPercentage;
       pureMetalWeight = variant.weightGrams * (variant.silverPercentage / 100);

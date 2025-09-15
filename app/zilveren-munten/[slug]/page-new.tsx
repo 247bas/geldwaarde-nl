@@ -92,7 +92,7 @@ export default async function ZilverenMuntDetailPage({ params }: { params: { slu
         </div>
 
         {/* Foto Galerij */}
-        {coin.images && <CoinPhotos images={coin.images} coinName={coin.name} />}
+        {coin.images && coin.variants && <CoinPhotos images={coin.images} coinName={coin.name} variants={coin.variants} />}
 
         {/* Waarde Calculator per Variant */}
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
