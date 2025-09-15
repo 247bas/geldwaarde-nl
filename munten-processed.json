@@ -1,0 +1,681 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2025-08-24",
+  "coins": [
+    {
+      "id": "gouden-1-gulden",
+      "name": "Gouden 1 gulden",
+      "slug": "gouden-1-gulden",
+      "metalType": "GOLD",
+      "denomination": "1 gulden",
+      "variants": [
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "2001",
+          "weight": 13.2,
+          "metalPercentage": 99.9,
+          "diameter": 25,
+          "metalContent": 999
+        }
+      ]
+    },
+    {
+      "id": "gouden-10-gulden",
+      "name": "Gouden 10 gulden",
+      "slug": "gouden-10-gulden",
+      "metalType": "GOLD",
+      "denomination": "10 gulden",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1818-1840",
+          "weight": 6.729,
+          "metalPercentage": 90,
+          "diameter": 22.5,
+          "metalContent": 900
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1842-1848",
+          "weight": 6.729,
+          "metalPercentage": 90,
+          "diameter": 22.5,
+          "metalContent": 900
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1850-1889",
+          "weight": 6.729,
+          "metalPercentage": 90,
+          "diameter": 22.5,
+          "metalContent": 900
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1892-1933",
+          "weight": 6.729,
+          "metalPercentage": 90,
+          "diameter": 22.5,
+          "metalContent": 900
+        }
+      ]
+    },
+    {
+      "id": "gouden-20-gulden",
+      "name": "Gouden 20 gulden",
+      "slug": "gouden-20-gulden",
+      "metalType": "GOLD",
+      "denomination": "20 gulden",
+      "variants": [
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1848",
+          "weight": 13.458,
+          "metalPercentage": 90,
+          "diameter": 27,
+          "metalContent": 900
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1850-1853",
+          "weight": 13.458,
+          "metalPercentage": 90,
+          "diameter": 27,
+          "metalContent": 900
+        }
+      ]
+    },
+    {
+      "id": "gouden-5-gulden",
+      "name": "Gouden 5 gulden",
+      "slug": "gouden-5-gulden",
+      "metalType": "GOLD",
+      "denomination": "5 gulden",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1826-1827",
+          "weight": 3.3645,
+          "metalPercentage": 90,
+          "diameter": 18.5,
+          "metalContent": 900
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1843-1848",
+          "weight": 3.3645,
+          "metalPercentage": 90,
+          "diameter": 18.5,
+          "metalContent": 900
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1850-1851",
+          "weight": 3.3645,
+          "metalPercentage": 90,
+          "diameter": 18.5,
+          "metalContent": 900
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1912",
+          "weight": 3.36,
+          "metalPercentage": 90,
+          "diameter": 18,
+          "metalContent": 900
+        }
+      ]
+    },
+    {
+      "id": "gouden-dubbele-dukaat",
+      "name": "Gouden Dubbele dukaat",
+      "slug": "gouden-dubbele-dukaat",
+      "metalType": "GOLD",
+      "denomination": "Dubbele dukaat",
+      "variants": [
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1854-1867",
+          "weight": 6.988,
+          "metalPercentage": 98.3,
+          "diameter": 27,
+          "metalContent": 983
+        },
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "1988-2012",
+          "weight": 6.988,
+          "metalPercentage": 98.3,
+          "diameter": 26,
+          "metalContent": 983
+        }
+      ]
+    },
+    {
+      "id": "gouden-dukaat",
+      "name": "Gouden Dukaat",
+      "slug": "gouden-dukaat",
+      "metalType": "GOLD",
+      "denomination": "Dukaat",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1814-1815",
+          "weight": 3.494,
+          "metalPercentage": 98.3,
+          "diameter": "20,5-21",
+          "metalContent": 983
+        },
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1817-1840",
+          "weight": 3.494,
+          "metalPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "metalContent": 983
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1841",
+          "weight": 3.494,
+          "metalPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "metalContent": 983
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1849-1885",
+          "weight": 3.494,
+          "metalPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "metalContent": 983
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1894-1937",
+          "weight": 3.494,
+          "metalPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "metalContent": 983
+        },
+        {
+          "ruler": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "years": "1960-1978",
+          "weight": 3.494,
+          "metalPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "metalContent": 983
+        },
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "1958-2012",
+          "weight": 3.494,
+          "metalPercentage": 98.3,
+          "diameter": "20,5-21,5",
+          "metalContent": 983
+        }
+      ]
+    },
+    {
+      "id": "zilveren-0-5-gulden",
+      "name": "Zilveren 0,5 gulden",
+      "slug": "zilveren-0-5-gulden",
+      "metalType": "SILVER",
+      "denomination": "0,5 gulden",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1818-1830",
+          "weight": 5.383,
+          "metalPercentage": 89.3,
+          "diameter": 24,
+          "metalContent": 893
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1846-1848",
+          "weight": 5,
+          "metalPercentage": 94.5,
+          "diameter": 22,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1850-1868",
+          "weight": 5,
+          "metalPercentage": 94.5,
+          "diameter": 22,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1898-1919",
+          "weight": 5,
+          "metalPercentage": 94.5,
+          "diameter": 22,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1921-1930",
+          "weight": 5,
+          "metalPercentage": 72,
+          "diameter": 22,
+          "metalContent": 720
+        }
+      ]
+    },
+    {
+      "id": "zilveren-1-gulden",
+      "name": "Zilveren 1 gulden",
+      "slug": "zilveren-1-gulden",
+      "metalType": "SILVER",
+      "denomination": "1 gulden",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1818",
+          "weight": 10.766,
+          "metalPercentage": 89.3,
+          "diameter": 30.5,
+          "metalContent": 893
+        },
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1819-1837",
+          "weight": 10.766,
+          "metalPercentage": 89.3,
+          "diameter": 30,
+          "metalContent": 893
+        },
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1840",
+          "weight": 10,
+          "metalPercentage": 94.5,
+          "diameter": 28,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1840-1849",
+          "weight": 10,
+          "metalPercentage": 94.5,
+          "diameter": 28,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1850-1867",
+          "weight": 10,
+          "metalPercentage": 94.5,
+          "diameter": 28,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1892-1917",
+          "weight": 10,
+          "metalPercentage": 94.5,
+          "diameter": 28,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1922-1943",
+          "weight": 10,
+          "metalPercentage": 72,
+          "diameter": 28,
+          "metalContent": 720
+        },
+        {
+          "ruler": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "years": "1954-1967",
+          "weight": 6.5,
+          "metalPercentage": 72,
+          "diameter": 25,
+          "metalContent": 720
+        },
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "2001",
+          "weight": 7.1,
+          "metalPercentage": 92.5,
+          "diameter": 25,
+          "metalContent": 925
+        }
+      ]
+    },
+    {
+      "id": "zilveren-10-cent",
+      "name": "Zilveren 10 cent",
+      "slug": "zilveren-10-cent",
+      "metalType": "SILVER",
+      "denomination": "10 cent",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "",
+          "weight": 1.692,
+          "metalPercentage": 56.9,
+          "diameter": 18,
+          "metalContent": 569
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "",
+          "weight": 1.4,
+          "metalPercentage": 64,
+          "diameter": 15,
+          "metalContent": 640
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "",
+          "weight": 1.4,
+          "metalPercentage": 64,
+          "diameter": 15,
+          "metalContent": 640
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "",
+          "weight": 1.4,
+          "metalPercentage": 64,
+          "diameter": 15,
+          "metalContent": 640
+        }
+      ]
+    },
+    {
+      "id": "zilveren-10-gulden",
+      "name": "Zilveren 10 gulden",
+      "slug": "zilveren-10-gulden",
+      "metalType": "SILVER",
+      "denomination": "10 gulden",
+      "variants": [
+        {
+          "ruler": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "years": "1970-1973",
+          "weight": 25,
+          "metalPercentage": 72,
+          "diameter": 38,
+          "metalContent": 720
+        },
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "1994",
+          "weight": 15,
+          "metalPercentage": 72,
+          "diameter": 33,
+          "metalContent": 720
+        },
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "1995-1999",
+          "weight": 15,
+          "metalPercentage": 72,
+          "diameter": 33,
+          "metalContent": 720
+        }
+      ]
+    },
+    {
+      "id": "zilveren-2-5-gulden",
+      "name": "Zilveren 2,5 gulden",
+      "slug": "zilveren-2-5-gulden",
+      "metalType": "SILVER",
+      "denomination": "2,5 gulden",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1840",
+          "weight": 25,
+          "metalPercentage": 94.5,
+          "diameter": 38,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1841-1849",
+          "weight": 25,
+          "metalPercentage": 94.5,
+          "diameter": 38,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1849-1874",
+          "weight": 25,
+          "metalPercentage": 94.5,
+          "diameter": 38,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1898",
+          "weight": 25,
+          "metalPercentage": 94.5,
+          "diameter": 38,
+          "metalContent": 945
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1929-1943",
+          "weight": 25,
+          "metalPercentage": 72,
+          "diameter": 38,
+          "metalContent": 720
+        },
+        {
+          "ruler": "Juliana",
+          "rulerPeriod": "1948-1980",
+          "years": "1959-1966",
+          "weight": 15,
+          "metalPercentage": 72,
+          "diameter": 33,
+          "metalContent": 720
+        }
+      ]
+    },
+    {
+      "id": "zilveren-25-cent",
+      "name": "Zilveren 25 cent",
+      "slug": "zilveren-25-cent",
+      "metalType": "SILVER",
+      "denomination": "25 cent",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1817-1819",
+          "weight": 4.23,
+          "metalPercentage": 56.9,
+          "diameter": 21,
+          "metalContent": 569
+        },
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1822-1830",
+          "weight": 4.23,
+          "metalPercentage": 56.8,
+          "diameter": 21,
+          "metalContent": 568
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1848-1849",
+          "weight": 3.575,
+          "metalPercentage": 64,
+          "diameter": 19,
+          "metalContent": 640
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1849-1890",
+          "weight": 3.575,
+          "metalPercentage": 64,
+          "diameter": 19,
+          "metalContent": 640
+        },
+        {
+          "ruler": "Wilhelmina",
+          "rulerPeriod": "1890-1948",
+          "years": "1891-1943",
+          "weight": 3.575,
+          "metalPercentage": 64,
+          "diameter": 19,
+          "metalContent": 640
+        }
+      ]
+    },
+    {
+      "id": "zilveren-3-gulden",
+      "name": "Zilveren 3 gulden",
+      "slug": "zilveren-3-gulden",
+      "metalType": "SILVER",
+      "denomination": "3 gulden",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1817-1832",
+          "weight": 32.298,
+          "metalPercentage": 89.3,
+          "diameter": 40,
+          "metalContent": 893
+        }
+      ]
+    },
+    {
+      "id": "zilveren-5-cent",
+      "name": "Zilveren 5 cent",
+      "slug": "zilveren-5-cent",
+      "metalType": "SILVER",
+      "denomination": "5 cent",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1818-1828",
+          "weight": 0.846,
+          "metalPercentage": 56.9,
+          "diameter": 15,
+          "metalContent": 569
+        },
+        {
+          "ruler": "Willem II",
+          "rulerPeriod": "1840-1849",
+          "years": "1848",
+          "weight": 0.685,
+          "metalPercentage": 64,
+          "diameter": 12.5,
+          "metalContent": 640
+        },
+        {
+          "ruler": "Willem III",
+          "rulerPeriod": "1849-1890",
+          "years": "1850-1887",
+          "weight": 0.685,
+          "metalPercentage": 64,
+          "diameter": 12.5,
+          "metalContent": 640
+        }
+      ]
+    },
+    {
+      "id": "zilveren-50-gulden",
+      "name": "Zilveren 50 gulden",
+      "slug": "zilveren-50-gulden",
+      "metalType": "SILVER",
+      "denomination": "50 gulden",
+      "variants": [
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "1982-1998",
+          "weight": 25,
+          "metalPercentage": 92.5,
+          "diameter": 38,
+          "metalContent": 925
+        }
+      ]
+    },
+    {
+      "id": "zilveren-zilveren-dukaat",
+      "name": "Zilveren Zilveren dukaat",
+      "slug": "zilveren-zilveren-dukaat",
+      "metalType": "SILVER",
+      "denomination": "Zilveren dukaat",
+      "variants": [
+        {
+          "ruler": "Willem I",
+          "rulerPeriod": "1815-1840",
+          "years": "1815-1816",
+          "weight": 28.078,
+          "metalPercentage": 86.8,
+          "diameter": 38.5,
+          "metalContent": 868
+        },
+        {
+          "ruler": "Beatrix",
+          "rulerPeriod": "1980-2013",
+          "years": "1989-2014",
+          "weight": 28.25,
+          "metalPercentage": 87.3,
+          "diameter": 40,
+          "metalContent": 873
+        }
+      ]
+    }
+  ]
+}

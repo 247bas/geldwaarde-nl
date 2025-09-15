@@ -7,12 +7,14 @@ interface PriceData {
   lastUpdated: number;
   dataDate: string;
   source: string;
+  lastApiCall?: number; // Timestamp van laatste API call (voor rate limiting)
 }
 
-// Kortere cache voor serverless (in-memory), langere voor lokaal (file-based)
-const CACHE_DURATION = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME
-  ? 5 * 60 * 1000   // 5 minuten voor serverless (in-memory only)
-  : 24 * 60 * 60 * 1000; // 24 uur voor lokaal met file cache
+// 24 uur cache voor alle environments (API limit: max 1 call per dag)
+const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 uur voor alle environments
+
+// Minimum tijd tussen API calls (strict 24-hour limiting)
+const MIN_API_INTERVAL = 24 * 60 * 60 * 1000; // 24 uur
 
 const CACHE_FILE = join(process.cwd(), 'price-cache.json');
 
@@ -164,9 +166,9 @@ function getLastKnownPrices(): PriceData {
 /**
  * Hoofdfunctie: Haal huidige edelmetaalprijzen op
  * Gebruikt server-side caching en fallback strategieën
- * Werkt in zowel lokale als serverless environments
+ * STRICT 24-hour API limiting: maximum 1 API call per dag
  */
-export async function getPrices(): Promise<PriceData & { cached: boolean; isStale?: boolean }> {
+export async function getPrices(forceRefresh: boolean = false): Promise<PriceData & { cached: boolean; isStale?: boolean; rateLimited?: boolean }> {
   const now = Date.now();
   const isServerless = !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
 
@@ -175,30 +177,50 @@ export async function getPrices(): Promise<PriceData & { cached: boolean; isStal
     priceCache = loadCacheFromFile();
   }
 
-  // Check cache geldigheid
-  if (priceCache && (now - priceCache.lastUpdated) < CACHE_DURATION) {
-    const ageMinutes = Math.floor((now - priceCache.lastUpdated) / 1000 / 60);
-    console.log(`Using ${isServerless ? 'in-memory' : 'cached'} prices - Age: ${ageMinutes} minutes`);
+  // Check cache geldigheid (24 uur)
+  if (priceCache && (now - priceCache.lastUpdated) < CACHE_DURATION && !forceRefresh) {
+    const ageHours = Math.floor((now - priceCache.lastUpdated) / 1000 / 60 / 60);
+    console.log(`Using ${isServerless ? 'in-memory' : 'cached'} prices - Age: ${ageHours} hours`);
     return {
       ...priceCache,
       cached: true
     };
   }
 
-  // Fetch nieuwe prijzen
+  // STRICT API RATE LIMITING: Check 24-hour interval since last API call
+  if (priceCache?.lastApiCall && (now - priceCache.lastApiCall) < MIN_API_INTERVAL && !forceRefresh) {
+    const hoursUntilNext = Math.ceil((MIN_API_INTERVAL - (now - priceCache.lastApiCall)) / 1000 / 60 / 60);
+    console.log(`API rate limit: ${hoursUntilNext} hours until next API call allowed`);
+
+    return {
+      ...priceCache,
+      cached: true,
+      isStale: true,
+      rateLimited: true
+    };
+  }
+
+  // Alleen nu mogen we een API call maken
   try {
-    console.log('Fetching fresh prices from API...');
+    console.log('Fetching fresh prices from API (within rate limit)...');
     const freshData = await fetchMetalPriceApiData();
-    priceCache = freshData;
+
+    // Voeg API call timestamp toe voor rate limiting
+    const dataWithApiCall = {
+      ...freshData,
+      lastApiCall: now
+    };
+
+    priceCache = dataWithApiCall;
 
     // Alleen opslaan naar bestand in lokale environments
     if (!isServerless) {
-      saveCacheToFile(freshData);
+      saveCacheToFile(dataWithApiCall);
     }
 
-    console.log('Successfully fetched fresh prices:', freshData);
+    console.log('Successfully fetched fresh prices within rate limit');
     return {
-      ...freshData,
+      ...dataWithApiCall,
       cached: false
     };
   } catch (error) {
@@ -206,7 +228,7 @@ export async function getPrices(): Promise<PriceData & { cached: boolean; isStal
 
     // Fallback naar laatste bekende prijzen
     const fallbackData = getLastKnownPrices();
-    console.log('Using fallback prices:', fallbackData);
+    console.log('Using fallback prices due to API error');
     return {
       ...fallbackData,
       cached: true,
