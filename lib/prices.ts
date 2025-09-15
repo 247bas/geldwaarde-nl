@@ -9,16 +9,25 @@ interface PriceData {
   source: string;
 }
 
-const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 uur voor alle environments
+// Kortere cache voor serverless (in-memory), langere voor lokaal (file-based)
+const CACHE_DURATION = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME
+  ? 5 * 60 * 1000   // 5 minuten voor serverless (in-memory only)
+  : 24 * 60 * 60 * 1000; // 24 uur voor lokaal met file cache
 
 const CACHE_FILE = join(process.cwd(), 'price-cache.json');
 
 // In-memory cache voor server
 let priceCache: PriceData | null = null;
 
-// Laad cache uit bestand
+// Laad cache uit bestand (optioneel - werkt niet op Vercel)
 function loadCacheFromFile(): PriceData | null {
   try {
+    // Check if we're in a serverless environment (Vercel)
+    if (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME) {
+      console.log('Serverless environment detected - skipping file cache');
+      return null;
+    }
+
     if (existsSync(CACHE_FILE)) {
       const fileContent = readFileSync(CACHE_FILE, 'utf-8');
       const cachedData = JSON.parse(fileContent);
@@ -26,18 +35,24 @@ function loadCacheFromFile(): PriceData | null {
       return cachedData;
     }
   } catch (error) {
-    console.error('Error loading price cache:', error);
+    console.log('File cache not available (expected in serverless):', error.message);
   }
   return null;
 }
 
-// Bewaar cache naar bestand
+// Bewaar cache naar bestand (optioneel - werkt niet op Vercel)
 function saveCacheToFile(data: PriceData) {
   try {
+    // Check if we're in a serverless environment (Vercel)
+    if (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME) {
+      console.log('Serverless environment - skipping file cache save');
+      return;
+    }
+
     writeFileSync(CACHE_FILE, JSON.stringify(data, null, 2));
     console.log('Saved prices to cache file:', data);
   } catch (error) {
-    console.error('Error saving price cache:', error);
+    console.log('Could not save to file cache (expected in serverless):', error.message);
   }
 }
 
@@ -149,30 +164,38 @@ function getLastKnownPrices(): PriceData {
 /**
  * Hoofdfunctie: Haal huidige edelmetaalprijzen op
  * Gebruikt server-side caching en fallback strategieën
+ * Werkt in zowel lokale als serverless environments
  */
 export async function getPrices(): Promise<PriceData & { cached: boolean; isStale?: boolean }> {
   const now = Date.now();
-  
-  // Laad cache als niet in memory
-  if (!priceCache) {
+  const isServerless = !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+
+  // Laad cache als niet in memory (alleen voor lokale environments)
+  if (!priceCache && !isServerless) {
     priceCache = loadCacheFromFile();
   }
-  
+
   // Check cache geldigheid
   if (priceCache && (now - priceCache.lastUpdated) < CACHE_DURATION) {
-    console.log('Using cached prices - Age:', Math.floor((now - priceCache.lastUpdated) / 1000 / 60), 'minutes');
+    const ageMinutes = Math.floor((now - priceCache.lastUpdated) / 1000 / 60);
+    console.log(`Using ${isServerless ? 'in-memory' : 'cached'} prices - Age: ${ageMinutes} minutes`);
     return {
       ...priceCache,
       cached: true
     };
   }
-  
+
   // Fetch nieuwe prijzen
   try {
+    console.log('Fetching fresh prices from API...');
     const freshData = await fetchMetalPriceApiData();
     priceCache = freshData;
-    saveCacheToFile(freshData);
-    
+
+    // Alleen opslaan naar bestand in lokale environments
+    if (!isServerless) {
+      saveCacheToFile(freshData);
+    }
+
     console.log('Successfully fetched fresh prices:', freshData);
     return {
       ...freshData,
@@ -180,9 +203,10 @@ export async function getPrices(): Promise<PriceData & { cached: boolean; isStal
     };
   } catch (error) {
     console.error('Failed to fetch fresh prices:', error);
-    
+
     // Fallback naar laatste bekende prijzen
     const fallbackData = getLastKnownPrices();
+    console.log('Using fallback prices:', fallbackData);
     return {
       ...fallbackData,
       cached: true,
