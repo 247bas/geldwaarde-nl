@@ -37,7 +37,7 @@ function loadCacheFromFile(): PriceData | null {
       return cachedData;
     }
   } catch (error) {
-    console.log('File cache not available (expected in serverless):', error.message);
+    console.log('File cache not available (expected in serverless):', error instanceof Error ? error.message : 'Unknown error');
   }
   return null;
 }
@@ -54,7 +54,7 @@ function saveCacheToFile(data: PriceData) {
     writeFileSync(CACHE_FILE, JSON.stringify(data, null, 2));
     console.log('Saved prices to cache file:', data);
   } catch (error) {
-    console.log('Could not save to file cache (expected in serverless):', error.message);
+    console.log('Could not save to file cache (expected in serverless):', error instanceof Error ? error.message : 'Unknown error');
   }
 }
 
