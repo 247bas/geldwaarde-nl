@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { MobileMenu } from "@/components/MobileMenu";
 // import { ClientProviders } from "@/components/ClientProviders";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -42,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="nl">
       <body className={`${inter.className} antialiased bg-gray-50`}>
-        <nav className="bg-white shadow-sm border-b">
+        <nav className="bg-white shadow-sm border-b relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex items-center">
@@ -51,7 +52,7 @@ export default function RootLayout({
                   <span className="ml-2 text-xl font-semibold text-gray-900">Geldwaarde.nl</span>
                 </a>
               </div>
-              <nav className="hidden md:flex items-center space-x-8">
+              <nav className="hidden lg:flex items-center space-x-8">
                 <a href="/gouden-munten" className="text-gray-700 hover:text-yellow-600 transition">
                   Gouden Munten
                 </a>
@@ -65,6 +66,8 @@ export default function RootLayout({
                   Actuele Prijzen
                 </a>
               </nav>
+
+              <MobileMenu />
             </div>
           </div>
         </nav>
