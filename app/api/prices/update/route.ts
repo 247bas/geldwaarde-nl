@@ -9,6 +9,27 @@ import { getPrices } from '@/lib/prices';
  */
 export async function POST(request: NextRequest) {
   try {
+    // Security headers
+    const headers = {
+      'Content-Type': 'application/json',
+      'X-Content-Type-Options': 'nosniff',
+      'X-Frame-Options': 'DENY',
+      'X-XSS-Protection': '1; mode=block',
+      'Referrer-Policy': 'strict-origin-when-cross-origin'
+    };
+
+    // Rate limiting: Basic request validation
+    const origin = request.headers.get('origin');
+    const userAgent = request.headers.get('user-agent');
+
+    // Basic bot/automated request detection
+    if (!userAgent || userAgent.length < 10) {
+      return NextResponse.json(
+        { error: 'Invalid request' },
+        { status: 400, headers }
+      );
+    }
+
     // Check admin authentication
     const adminKey = request.headers.get('x-admin-key') || request.headers.get('authorization')?.replace('Bearer ', '');
     const expectedAdminKey = process.env.ADMIN_KEY;
@@ -16,14 +37,17 @@ export async function POST(request: NextRequest) {
     if (!expectedAdminKey) {
       return NextResponse.json(
         { error: 'Admin functionality not configured' },
-        { status: 503 }
+        { status: 503, headers }
       );
     }
 
     if (!adminKey || adminKey !== expectedAdminKey) {
+      // Log potential security breach
+      console.warn(`Unauthorized admin access attempt from: ${request.ip || 'unknown'} - User-Agent: ${userAgent}`);
+
       return NextResponse.json(
         { error: 'Unauthorized: Invalid admin key' },
-        { status: 401 }
+        { status: 401, headers }
       );
     }
 
@@ -44,7 +68,7 @@ export async function POST(request: NextRequest) {
       lastApiCall: pricesData.lastApiCall ? new Date(pricesData.lastApiCall).toISOString() : undefined,
       currency: 'EUR',
       unit: 'gram',
-    });
+    }, { headers });
 
   } catch (error) {
     console.error('Error in admin price update:', error);
@@ -52,7 +76,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       error: 'Failed to update prices',
       details: error instanceof Error ? error.message : 'Unknown error'
-    }, { status: 500 });
+    }, {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Content-Type-Options': 'nosniff'
+      }
+    });
   }
 }
 
@@ -60,6 +90,13 @@ export async function POST(request: NextRequest) {
 export async function GET() {
   return NextResponse.json(
     { error: 'Method not allowed. Use POST with admin key.' },
-    { status: 405 }
+    {
+      status: 405,
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Content-Type-Options': 'nosniff',
+        'Allow': 'POST'
+      }
+    }
   );
 }

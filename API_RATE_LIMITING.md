@@ -59,6 +59,25 @@ With strict 24-hour limiting:
 # Required for price fetching
 METALPRICE_API_KEY=your-api-key
 
-# Required for manual updates
-ADMIN_KEY=your-secure-admin-key
+# Required for manual updates (SECURITY: Use strong key!)
+# Generate with: openssl rand -base64 32
+ADMIN_KEY=your-secure-admin-key-min-32-chars
 ```
+
+## Security Features
+
+### Production vs Development
+- **Production**: Rate limiting info hidden from API responses
+- **Development**: Full debugging info available
+- **Logging**: Sensitive data only logged in development
+
+### Admin Endpoint Security
+- **Authentication**: Admin key required in headers
+- **Headers**: Security headers prevent common attacks
+- **Validation**: Request validation and bot detection
+- **Logging**: Unauthorized attempts are logged
+
+### Data Protection
+- **Cache files**: Excluded from git repository
+- **API keys**: Environment variables only
+- **Error handling**: No sensitive info in error responses

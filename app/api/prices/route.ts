@@ -6,7 +6,8 @@ export async function GET() {
     // Gebruik de shared cache via getPrices() met strict rate limiting
     const pricesData = await getPrices();
 
-    return NextResponse.json({
+    // Sanitize response - only expose necessary information
+    const response: any = {
       gold: pricesData.gold,
       silver: pricesData.silver,
       cached: pricesData.cached || false,
@@ -14,11 +15,17 @@ export async function GET() {
       dataDate: pricesData.dataDate,
       source: pricesData.source,
       isStale: pricesData.isStale || false,
-      rateLimited: pricesData.rateLimited || false,
-      lastApiCall: pricesData.lastApiCall ? new Date(pricesData.lastApiCall).toISOString() : undefined,
       currency: 'EUR',
       unit: 'gram',
-    });
+    };
+
+    // Only include rate limiting info in development
+    if (process.env.NODE_ENV !== 'production') {
+      response.rateLimited = pricesData.rateLimited || false;
+      response.lastApiCall = pricesData.lastApiCall ? new Date(pricesData.lastApiCall).toISOString() : undefined;
+    }
+
+    return NextResponse.json(response);
 
   } catch (error) {
     console.error('Error in prices API:', error);

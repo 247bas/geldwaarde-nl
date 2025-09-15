@@ -33,7 +33,9 @@ function loadCacheFromFile(): PriceData | null {
     if (existsSync(CACHE_FILE)) {
       const fileContent = readFileSync(CACHE_FILE, 'utf-8');
       const cachedData = JSON.parse(fileContent);
-      console.log('Loaded prices from cache file:', cachedData);
+      if (process.env.NODE_ENV !== 'production') {
+        console.log('Loaded prices from cache file:', cachedData);
+      }
       return cachedData;
     }
   } catch (error) {
@@ -52,7 +54,9 @@ function saveCacheToFile(data: PriceData) {
     }
 
     writeFileSync(CACHE_FILE, JSON.stringify(data, null, 2));
-    console.log('Saved prices to cache file:', data);
+    if (process.env.NODE_ENV !== 'production') {
+      console.log('Saved prices to cache file:', data);
+    }
   } catch (error) {
     console.log('Could not save to file cache (expected in serverless):', error instanceof Error ? error.message : 'Unknown error');
   }
@@ -114,7 +118,9 @@ async function fetchMetalPriceApiData(): Promise<PriceData> {
   }
   
   const data = await response.json();
-  console.log('MetalPrice API response:', data);
+  if (process.env.NODE_ENV !== 'production') {
+    console.log('MetalPrice API response:', data);
+  }
   
   if (data.success && data.rates) {
     // Gebruik de juiste velden: EURXAU en EURXAG
